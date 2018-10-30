@@ -4,7 +4,7 @@ train:
   run_name: table-area-detection-0.1
   # Base directory in which model checkpoints & summaries (for Tensorboard) will
   # be saved.
-  job_dir: jobs/
+  job_dir: ../jobs/
   save_checkpoint_secs: 10
   save_summaries_secs: 10
 
