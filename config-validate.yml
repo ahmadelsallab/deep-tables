@@ -1,7 +1,7 @@
 train:
   # Name used to identify the run. Data inside `job_dir` will be stored under
   # `run_name`.
-  run_name: without-image-rescaling
+  run_name: with-image-rescaling
   # Base directory in which model checkpoints & summaries (for Tensorboard) will
   # be saved.
   job_dir: jobs/
@@ -16,7 +16,7 @@ eval:
 dataset:
   type: object_detection
   # From which directory to read the dataset.
-  dir: tfdata/
+  dir: tfdata-scaled/
   image_preprocessing:
     min_size: 600
     max_size: 1024
